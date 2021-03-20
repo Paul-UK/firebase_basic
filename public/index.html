@@ -13,7 +13,7 @@
     <script defer src="/__/firebase/8.3.1/firebase-firestore.js"></script>
     <script defer src="/__/firebase/8.3.1/firebase-functions.js"></script>
     <script defer src="/__/firebase/8.3.1/firebase-messaging.js"></script>
-    <!-- <script defer src="/__/firebase/8.3.1/firebase-storage.js"></script> -->
+    <script defer src="/__/firebase/8.3.1/firebase-storage.js"></script>
     <script defer src="/__/firebase/8.3.1/firebase-analytics.js"></script>
     <script defer src="/__/firebase/8.3.1/firebase-remote-config.js"></script>
     <script defer src="/__/firebase/8.3.1/firebase-performance.js"></script>
@@ -26,7 +26,9 @@
       <button onclick="googleLogin()">
       Login with your Google Account 
       </button>
-    
+
+      <h3>Storage Uploads</h3>
+      <input type="file" onchange="uploadFile(this.files)">
   </head>
   <body>
     <script src="app.js"></script>
