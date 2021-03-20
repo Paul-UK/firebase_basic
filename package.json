@@ -1,0 +1,22 @@
+{
+  "name": "firebase_basic",
+  "version": "1.0.0",
+  "description": "Firebase_test_project",
+  "main": "index.js",
+  "scripts": {
+    "test": "firebase serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-UK/firebase_test.git"
+  },
+  "keywords": [
+    "Firebase"
+  ],
+  "author": "Paul-UK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paul-UK/firebase_test/issues"
+  },
+  "homepage": "https://github.com/Paul-UK/firebase_test#readme"
+}
